@@ -3,9 +3,9 @@ const ASSETS_TO_CACHE = [
   '/',
   '/home/index.html',
   '/home/manifest.json',
-  '/images/logo-vertical.png',
-  '/images/icon-512x512.png',
-  '/images/maskable-icon-512x512.png'
+  '/home/images/logo-vertical.png',
+  '/home/images/icon-512x512.png',
+  '/home/images/maskable-icon-512x512.png'
 ];
 
 // Install: Cache essential resources
