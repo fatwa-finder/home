@@ -57,6 +57,9 @@ function searchKeyPress(e){
     return true;
 }
 
+const params = new URLSearchParams(window.location.search);
+  document.getElementById('input-box').value = params.get('q') || '';
+	
 </script>
 <link rel="stylesheet" type="text/css" href="https://ssl.gstatic.com/docs/script/css/add-ons.css" />
 
