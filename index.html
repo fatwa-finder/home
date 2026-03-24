@@ -66,10 +66,10 @@
 
     #search-icon,
     #clear-icon {
+      flex-shrink: 0;
       padding: 12px;
       height: 40px;
-      vertical-align: middle;
-      text-align: start;
+      width: 40px;
       background-color: transparent;
       cursor: pointer;
       border-radius: 50px;
@@ -85,22 +85,18 @@
     }
 
     #input-box {
+      flex: 1;
       min-width: 70px;
-      width: 74%;
       height: 50px;
       border: none;
-      font-size: 31px;
-      font-family: Roboto Flex;
-      font-stretch: normal;
-      font-weight: thin;
-      letter-spacing: normal;
-      line-height: 27px;
-      color: #000000;
+      outline: none;
+      box-shadow: none;
+      font-size: 25px;
+      font-family: 'Roboto Flex', sans-serif;
+      font-weight: 300;
+      color: #000;
       background-color: transparent;
       cursor: text;
-      text-align: start;
-      vertical-align: middle;
-      justify-content: center;
     }
 
     /* Links hidden by default as per original intent */
